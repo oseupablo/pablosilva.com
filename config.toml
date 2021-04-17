@@ -1,4 +1,33 @@
 baseURL = "https://pablosilva.com.br/"
 languageCode = "pt-br"
+defaultContentLanguage = "pt-br"
 title = "Pablo Silva"
-theme = "ananke"
+theme = "hallo"
+removePathAccents = true
+
+
+[Author]
+    name = "Pablo Silva"
+
+[params]
+
+	[params.colors]
+	        background = "#000000"
+	        foreground = "#edf7ff"
+	        hover = "#ffba82"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:contato@pablosilva.com.br"
+
+    [[params.links]]
+        icon = "linkedin"
+        title = "Linkedin"
+        url = "https://www.linkedin.com/in/oseupablo/?locale=pt_BR"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/oseupablo"
