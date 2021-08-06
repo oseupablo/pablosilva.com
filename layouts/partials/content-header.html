@@ -1,0 +1,6 @@
+<header id="content-header">
+  <h1 id="content-title">{{ .Title }}</h1>
+  {{ if .Params.image }}
+  <img src="{{ .Params.image }}" alt="Imagem de destaque de {{ .Title }}" id="content-image">
+  {{ end }}
+</header>
