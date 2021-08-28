@@ -194,6 +194,11 @@
   text-align: center;
 }
 
+#text-container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 footer {
   font-family: var(--fontDefault) ,sans-serif;
   color: var(--colorWhite);
